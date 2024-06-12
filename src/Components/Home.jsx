@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/Favour.jpg";
+import image from "../images/Themeone.jpg";
 
 const imageAltText = "Favour smiling towards the camera outside of his neighbourhood";
 
@@ -35,7 +35,7 @@ const Home = ({ name, title }) => {
         <h2>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem", backgroundSize: "cover" }} alt={imageAltText} />
+        <img src={arrowSvg} style={{ height: "3rem", width: "100%", backgroundSize: "cover", backgroundPosition: "center" }} alt={imageAltText} />
       </div>
     </section>
   );
