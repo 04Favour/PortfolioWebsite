@@ -28644,21 +28644,22 @@ const Home = ({ name , title  })=>{
                     position: "absolute",
                     top: "5rem",
                     left: "2rem",
-                    width: "17rem"
+                    width: "17rem",
+                    color: "white"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 32,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 33,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28677,17 +28678,18 @@ const Home = ({ name , title  })=>{
                     src: (0, _downArrowSvgDefault.default),
                     style: {
                         height: "3rem",
-                        width: "3rem"
+                        width: "3rem",
+                        backgroundSize: "cover"
                     },
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 36,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 35,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined)
         ]
