@@ -57,7 +57,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-
+        
         <ul className="skill-list">
       {skillsList.map((skill) => (
         <li key={skill}>{skill}</li>
