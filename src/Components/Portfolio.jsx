@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Fashion Agency",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Collaboration to create a fashion store where users can feed their eyes on fashion items and place order on any item they are interedted in.",
+    url: "",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Dashboard Development For Beginners",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Wrote code for the development of a dashboard using html, css, bootstrap for learning purpose",
+    url: "https://04favour.github.io/dashboard/",
   },
   {
-    title: "My Resume Site",
+    title: "My Portfolio Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from Github Copilot lesson and deployed to GitHub pages. Includes my experience and web abilities.",
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Landing Page for a Travel Agency",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a landing page for a travel agency using html and css",
+    url: "https://04favour.github.io/Landing-TravelPage/",
   },
 ];
 
