@@ -123,3 +123,27 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* Default styles */
+.skill-list {
+  text-align: left;
+  columns: 1;
+  font-size: 1.25rem;
+  margin: 2rem 3rem;
+  gap: 3rem;
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 600px) {
+  .skill-list {
+    columns: 2;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
+  .skill-list {
+    columns: 3;
+  }
+}
+
