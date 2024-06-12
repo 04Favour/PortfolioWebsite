@@ -14,6 +14,10 @@ div#main {
   display: flex;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   width: 100vw;
   position: relative;
@@ -116,6 +120,36 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.skill-list {
+  text-align: left;
+  columns: 1;
+  gap: 3rem;
+  margin: 2rem 3rem;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 600px) {
+  .skill-list {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skill-list {
+    columns: 3;
+  }
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
